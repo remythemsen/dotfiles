@@ -1,8 +1,10 @@
 !links
 URxvt*perl-lib:           /usr/lib/urxvt/perl/
-URxvt*perl-ext:           default,matcher,tabbedex,clipboard
-URxvt*url-launcher:        /usr/bin/chromium
+URxvt*perl-ext:           default,matcher,clipboard
+URxvt*url-launcher:        /usr/bin/firefox
 URxvt*matcher.button:     1
+
+URxvt*loginShell: true
 
 !urxvt color scheme:
 
@@ -37,12 +39,12 @@ URxvt*color7  : #D3D7CF
 URxvt*color15 : #EEEEEC
 
 !Fake Transparancy
-URxvt.transparent: true
-URxvt.shading: 25
+!URxvt.transparent: true
+!URxvt.shading: 15
 
 !Real Transparancy
-!URxvt*depth: 32
-!URxvt*background: rgba:1500/1500/1500/e800
+URxvt*depth: 32
+URxvt*background: rgba:1500/1500/1500/e800
 
 !urxvt fonts: 
 
@@ -73,3 +75,18 @@ URxvt.tabbed.tab-bg: 8
 URxvt.tabbed.autohide:  yes
 URxvt.tabbed.new-button:  no
 URxvt.tabbed.title: no
+
+!ROFI Settings
+rofi.color-enabled:		true
+rofi.color-window:      argb:ee0F3B5F, #CC9752, #CC9752
+rofi.color-normal:      argb:00111111, #E5DBCF, argb:00111111, #CC9752, #0F3B5F
+rofi.color-urgent:      argb:00111111, #af652f, argb:00111111, #af652f, #0F3B5F
+rofi.color-active:      argb:00111111, #70a16c, argb:00111111, #70a16c, #0F3B5F
+rofi.fullscreen:        true
+rofi.padding:           2
+rofi.hide-scrollbar:    true
+rofi.line-margin:       5
+rofi.fake-transparency: true
+
+
+
